@@ -1,0 +1,64 @@
+#poz {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+#form_basic {
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0 0 -200px;
+    background: #6fafd2;
+}
+
+input[type="text"] {
+    position: absolute;
+    right: 50px;
+}
+
+.redirect{
+    position: absolute;
+    background: gray;
+    /* width: 80px;
+    height: 25px; */
+    padding: 5px 20px;
+    right: 50px;
+    bottom: 30px;
+}
+
+.redirect > a {
+    text-decoration-line: none;
+    color: black;
+}
+
+/*-----------------view----------------------*/
+div.container {
+    position: relative;
+    top: 100px;
+    background: grey;
+    width: 60%;
+    height: 250px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+div.img > img {
+    width: 200px;
+}
+
+div.student {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    right: 150px;
+    bottom: 25px;
+    color: midnightblue;
+    font-size: 25px;
+}
